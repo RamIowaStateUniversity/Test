@@ -31,4 +31,15 @@ public class Main {
 				j++;				
 			}
 	}
+
+	public static void dead(String[] a) {		
+			Scanner sc=new Scanner(System.in);
+			int y=90;
+			int b=1;
+			int j=0;
+			while(j<2) {
+				System.out.println(compute(y));
+				j++;				
+			}
+	}
 }
