@@ -54,4 +54,14 @@ public class Main {
 				j++;				
 			}
 	}
+
+	public static void domtest(String[] a) {		
+			int y=90;
+			if(y==90) {
+				y++;
+			}
+			else {
+				y--;
+			}
+	}
 }
