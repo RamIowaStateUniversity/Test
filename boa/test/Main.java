@@ -64,4 +64,19 @@ public class Main {
 				y--;
 			}
 	}
+
+	public static void alias(String[] a) {		
+			Scanner sc=new Scanner(System.in);
+			int y=90;
+			int y1 = y;
+			int b=1;
+			int j=0;
+			b=b+2;
+			int y2 = y;
+			y1 = b + 7;
+			while(j<2) {
+				b = y1;
+				System.out.println(compute(y));
+				j++;				
+			}	}
 }
