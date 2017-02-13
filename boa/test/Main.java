@@ -58,10 +58,10 @@ public class Main {
 	public static void domtest(String[] a) {		
 			int y=90;
 			if(y==90) {
-				y++;
+				y=1;
 			}
 			else {
-				y--;
+				y=2;
 			}
 	}
 
